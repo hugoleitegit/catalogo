@@ -10,7 +10,7 @@
         "lint:ci": "ng lint",
         "test:ci": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
         "build:ci": "ng build --configuration production",
-        "all:ci": "npm run lint:ci && npm run test:ci && npm run build:ci"
+        "all:ci": "npm i && npm run lint:ci && npm run test:ci && npm run build:ci"
     },
     "private": true,
     "dependencies": {
